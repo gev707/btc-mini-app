@@ -1,0 +1,34 @@
+.btn {
+    position: relative;
+    width: auto;
+    height: auto;
+    background: transparent;
+    padding: 10px 15px;
+    border: none;
+    box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.10);
+    overflow: hidden;
+    color: $color;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 1.1;
+    cursor: pointer;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background: $color;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left:-100%;
+        transition:0.7s ease;
+    }
+
+    &:hover:before{
+        left:0;
+    }
+    &:hover{
+        transition-delay: 0.5s; 
+        color: #ddd;
+    }
+}

@@ -1,0 +1,23 @@
+.error-container {
+    width: $deviceViewWidth;
+    height: $deviceViewHeight;
+    display: $displayFlex;
+    justify-content: center;
+    align-items: $Center;
+    .redirect {
+        display: $displayFlex;
+        justify-content: center;
+        align-items: $Center;
+        padding: 10px 0;
+        box-shadow: 0 0 4px 4px rgba(255 255 255/15%);
+        margin: 1rem;
+        font-size: 12px;
+        font-weight: bold;
+        
+        &:hover {
+            background: $color;
+            color:#ddd;
+
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.header {
+    width: $deviceViewWidth;
+    display: $displayFlex;
+    justify-content: space-between;
+    align-items: center;
+    background: $bgDark;
+    height:70px;
+    padding: 0 1rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px 2px rgba(255 255 255 / 5%);
+    >div{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html,
+body {
+  width: $deviceViewWidth;
+  height: $deviceViewHeight;
+  overflow: hidden;
+  background: $backgroundColor;
+  color: $color;
+  font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  margin: 1rem 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.d-flex {
+  display: $displayFlex;
+  justify-content: $spaceBetween;
+  align-items: $Center;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
